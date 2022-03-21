@@ -1,34 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+     <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;500;700&display=swap" rel="stylesheet">
+    
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Ping coming soon page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+<link rel="stylesheet" href="./styles.css" />
 
-  We are launching soon!
+    <title>Frontend Mentor | Ping coming soon page</title>
+    <script src="https://kit.fontawesome.com/77a2654d40.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <main class="max-width">
+      <img src="./images/logo.svg" alt="company logo" class="logo"/>
+      <h1>We are launching <span>soon!</span></h1>
+      <p>Subscribe and get notified</p>
+      <form id="form" class="form-control">
+          <input id="email" type="text" name="email" aria-label="email" placeholder="Your email address..">
+          <small><em>Please provide a valid email address</em></small>
+          <button type="submit">Notify Me</button>
+      </form>  
+    </main>
+    <figure class="max-width">
+      <img src="./images/illustration-dashboard.png" alt="computer window sketch"/>
+    </figure class="max-width">
+    <section class="social">
+      <div class="icons">
+        <i class="fa-brands fa-facebook-f fa-xs border"></i> <i class="fa-brands fa-twitter fa-xs border"></i> <i class="fa-brands fa-instagram fa-xs border"></i>
+      </div>  
+      <p>&copy; Copyright Ping. All rights reserved.</p>
+    </section>
 
-  Subscribe and get notified
-
-  Notify Me
-
-  &copy; Copyright Ping. All rights reserved.
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+    <footer class="max-width">
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/patriciogarnero">Patricio Garnero</a>.
+      </p>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
 </html>
