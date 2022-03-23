@@ -131,9 +131,12 @@ figure img {
   height: 35px;
   width: 35px;
   border-radius: 50%;
-  line-height: 2.1rem;
   margin-left: 10px;
   text-align: center;
+}
+
+.fa-xs {
+  line-height: 2.1rem;
 }
 .social p {
   color: var(--gray);
