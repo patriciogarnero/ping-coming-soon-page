@@ -125,19 +125,17 @@ figure img {
   margin-bottom: 30px;
 }
 
-.border {
+i.border {
   color: var(--blue);
   border: 1px solid var(--pale-blue);
   height: 35px;
   width: 35px;
+  line-height: 2.1rem;
   border-radius: 50%;
   margin-left: 10px;
   text-align: center;
 }
 
-.fa-xs {
-  line-height: 2.1rem;
-}
 .social p {
   color: var(--gray);
   font-size: 0.7rem;
